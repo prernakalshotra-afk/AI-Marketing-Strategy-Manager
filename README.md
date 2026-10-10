@@ -137,6 +137,24 @@ AI Marketing Strategy Manager demonstrates how a web application can support mar
 \## Author
 
 Student Project — AI/Generative AI
+## OpenAI API Integration (Demo)
+
+This project includes a demonstration of how OpenAI API integration can be implemented in an AI Marketing Strategy Manager.
+
+### Purpose
+- Demonstrates the Python code structure for connecting to OpenAI.
+- Shows how a marketing prompt can be sent to an AI model.
+- Illustrates how an AI-generated response can be received and displayed.
+
+### Current Status
+- OpenAI integration code is displayed for demonstration purposes only.
+- No live OpenAI API request is performed.
+- The application does not currently generate responses through OpenAI.
+
+### Technologies Used
+- Python
+- Streamlit
+- OpenAI Python SDK (shown in the demonstration code)
 
 
 

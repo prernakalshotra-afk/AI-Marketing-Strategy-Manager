@@ -117,3 +117,26 @@ if submitted:
 
 st.divider()
 st.caption("AI Marketing Strategy Manager | Project Demo")
+
+# OpenAI API Integration Demo
+# Illustrative code only — no live API call is made.
+
+import streamlit as st
+
+st.subheader("OpenAI Integration")
+
+st.code("""
+from openai import OpenAI
+
+client = OpenAI(api_key="YOUR_API_KEY")
+
+response = client.responses.create(
+    model="YOUR_CHOSEN_MODEL",
+    input="Generate a marketing strategy for my business."
+)
+
+print(response.output_text)
+""", language="python")
+
+st.info("Demo only: OpenAI API is not connected.")
+
